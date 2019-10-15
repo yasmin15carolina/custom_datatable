@@ -1,0 +1,6 @@
+user=root
+host=localhost
+password=
+database=sys
+C:\\wamp64\\bin\\mysql\\mysql5.7.26\\bin\\mysqldump
+C:\\wamp64\\bin\\mysql\\mysql5.7.26\\bin\\Backup.sql
