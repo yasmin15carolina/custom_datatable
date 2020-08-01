@@ -14,7 +14,7 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 
-### Example
+## Example
 
 ```dart
 import 'package:example/widgets/custom_datatable.dart';
@@ -54,7 +54,8 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
-This is the default color           
+These are the default colors   
+
 ![BlueTable](blueTable.png)
 
 You can change it by modifying the headerColor,rowColor1 and rowColor2 parameters
