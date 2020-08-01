@@ -15,5 +15,5 @@ samples, guidance on mobile development, and a full API reference.
 
 
 ### Example
-![greenTable](greenTable.png)
+![GreenTable](greenTable.png)
 ![BlueTable](blueTable.png)
