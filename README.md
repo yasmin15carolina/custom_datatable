@@ -48,14 +48,28 @@ class MyApp extends StatelessWidget {
                     DataRow(cells: [DataCell(Text("John"),),DataCell(Text("john@gmail.com"),),DataCell(Text("1308  Berkley Street"),),]),
                   ]
                 ),
-                rowColor1:Colors.grey.shade300,
-                headerColor: Colors.green,
-              )
           )          
       )
     );
   }
 }
 ```
-![GreenTable](greenTable.png)
+This is the default color           
 ![BlueTable](blueTable.png)
+
+You can change it by modifying the headerColor,rowColor1 and rowColor2 parameters
+```dart
+    CustomDataTable(
+        headerColor: Colors.green,
+        rowColor1:Colors.grey.shade300,
+        dataTable: DataTable(
+            columns: [DataColumn(label: Text("Name",style: headerTextStyle,),),DataColumn(label: Text("Email",style: headerTextStyle,),),DataColumn(label: Text("Adress",style: headerTextStyle,),),], 
+            rows: [
+            DataRow(cells: [DataCell(Text("Brandon")),DataCell(Text("brandon@gmail.com")),DataCell(Text("4982  Mutton Town Road"))]),
+            DataRow(cells: [DataCell(Text("Jane")),DataCell(Text("jane@gmail.com")),DataCell(Text("1800  Fort Street")),]),
+            DataRow(cells: [DataCell(Text("John"),),DataCell(Text("john@gmail.com"),),DataCell(Text("1308  Berkley Street"),),]),
+            ]
+        ),
+        )
+```
+![GreenTable](greenTable.png)
